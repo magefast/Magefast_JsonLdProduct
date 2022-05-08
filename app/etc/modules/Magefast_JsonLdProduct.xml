@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magefast_JsonLdProduct>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Magefast_JsonLdProduct>
+    </modules>
+</config>

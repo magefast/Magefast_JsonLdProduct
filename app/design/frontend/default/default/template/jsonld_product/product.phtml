@@ -1,0 +1,25 @@
+<?php if ($this->isProductPage()): ?>
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "Product",
+"name": "<?php echo $this->getProductName(); ?>",
+<?php if($productImage = $this->getProductImage()): ?>
+"image": "<?php echo $productImage; ?>",
+<?php endif; ?>
+<?php if($productBrand = $this->getProductBrand()): ?>
+"brand":{"@type": "Thing","name": "<?php echo $productBrand; ?>"},
+<?php endif; ?>
+<?php /* if($productDescription = $this->getProductName()): ?>
+"description": "<?php echo $productDescription; ?>",
+<?php endif; */ ?>
+<?php if($this->getProductFinalPrice()): ?>
+"offers": {
+"@type": "Offer",
+"price": "<?php echo $this->getProductFinalPrice(); ?>",
+"priceCurrency": "<?php echo $this->getCurrencyCode(); ?>",
+"priceValidUntil": "<?php echo $this->priceValidUntil(); ?>"}
+<?php endif; ?>
+}
+</script>
+<?php endif; ?>

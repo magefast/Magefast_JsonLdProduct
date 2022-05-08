@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Magefast_JsonLdProduct</name>
+    <version>1.0.0</version>
+    <stability>beta</stability>
+    <license>AFL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary></summary>
+    <description>Product markup JSON-LD</description>
+    <notes>First release</notes>
+    <authors><author><name>Alex</name><user>alexhost</user><email>magento@magefast.com</email></author></authors>
+    <date>2015-06-06</date>
+    <time>12:39:27</time>
+    <contents><target name="mage"><dir name="app"><dir name="code"><dir name="community"><dir name="Magefast"><dir name="JsonLdProduct"><dir name="Block"><file name="Product.php" hash="fcb30ff26a97436a319e70cac914432a"/></dir><dir name="Helper"><file name="Data.php" hash="911771bb39b7262c519eb484b259e228"/></dir><dir name="etc"><file name="config.xml" hash="815604f3dc516877fa84eaf8e94edd83"/></dir></dir></dir></dir></dir><dir name="design"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="jsonld_product.xml" hash="400246dfa80cf1c9449a7ad743fd3fe3"/></dir><dir name="template"><dir name="jsonld_product"><file name="product.phtml" hash="c7a5d4947ef318cd162f41be74bc7c2b"/></dir></dir></dir></dir></dir></dir><dir name="etc"><dir name="modules"><file name="Magefast_JsonLdProduct.xml" hash="33ce8f936b1224a3ebc9635a96240f5d"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

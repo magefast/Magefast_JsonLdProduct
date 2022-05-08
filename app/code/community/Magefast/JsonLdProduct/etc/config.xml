@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Magefast_JsonLdProduct>
+            <version>1.0.0</version>
+        </Magefast_JsonLdProduct>
+    </modules>
+    <global>
+        <blocks>
+            <jsonld_product>
+                <class>Magefast_JsonLdProduct_Block</class>
+            </jsonld_product>
+        </blocks>
+        <helpers>
+            <jsonld_product>
+                <class>Magefast_JsonLdProduct_Helper</class>
+            </jsonld_product>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <jsonld_product module="Magefast_JsonLdProduct">
+                    <file>jsonld_product.xml</file>
+                </jsonld_product>
+            </updates>
+        </layout>
+    </frontend>
+</config>
